@@ -1,0 +1,309 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    background-color: #525659;
+}
+
+.container{
+    width: 1100px;
+    height:auto;
+    background-color: white;
+    margin: 80px auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.menu{
+    width:49%;
+    height: 40px;
+    position: relative;
+    float:right;
+
+}
+.menu ul{
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+.menu ul li{
+    display:block;
+    position:relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    line-height:1.5;
+}
+
+.menu ul li:nth-child(5) {
+    width: 17%!important;
+}
+.menu ul li:nth-child(4) {
+    width: 17%!important;
+}
+.menu ul li:nth-child(3) {
+    width: 20%!important;
+}
+.menu ul li:nth-child(2) {
+    width: 23%!important;
+}
+.menu ul li:nth-child(1) {
+    width: 23%!important;
+}
+
+.menu ul li:nth-child(5) a{
+    color: #e62d78;
+}
+.menu ul li:nth-child(4) a{
+    color: #e62d78;
+}
+.menu ul li:nth-child(3) a{
+    color: #e62d78;
+}
+.menu ul li:nth-child(2) a{
+    color: #fff;
+}
+.menu ul li:nth-child(1) a{
+    color: #fff;
+}
+
+.menu ul li a {
+    text-align: center;
+    line-height: 2.5;
+    display: block;
+    height: 100%;
+    font-weight:700;
+    font-size: 18px;
+}
+
+header{
+    height: 370px!important;
+    background-image: url(img/capa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0!important;
+}
+
+#sobre{
+    color: #fff;
+    background-color: #0c79bd;
+    text-align: center;
+}
+
+#workshops{
+    color: #fff;
+    background-color: #6b3e90;
+    text-align: center;
+}
+#organizacao{
+    color: #fff;
+    background-color: #e73875;
+    text-align: center;
+}
+
+#patrocinios{
+    color: #fff;
+    background-color: #F28E0A;
+    text-align: center;
+
+}
+#detalhes{
+    color: #fff;
+    background-color: #0c79bd;
+    text-align: left;
+
+}
+
+.bloco{
+    width: 1000px;
+    height: auto;
+    display: block;
+    float: left;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+h3{
+    line-height: 30px;
+    text-align: left;
+
+}
+a{
+    color:white;
+}
+
+
+.thumbnails{
+    width: calc(100% / 3);
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px;
+    margin-top: 50px;
+}
+.thumbnails1{
+    width: calc(100% / 2);
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+.foto{
+    width: calc(100% / 2);
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 50px;
+
+}
+
+.foto img{
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.fotoorg{
+    width: calc(100% / 5);
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 33px;
+    white-space: nowrap ;
+    text-align: center;
+
+
+}
+.fotoorg img{
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+.contentiframe{
+    width: 55%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 91px;
+
+}
+.links{
+    width: 45%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 94px;
+    margin: 0px;
+    line-height:0px;
+}
+/*#agenda{
+    height: 150px!important;
+    background-image: url(img/capa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0!important;
+}*/
+.conteudoagenda{
+    width: calc(100% / 3);
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px;
+
+}
+#agenda{
+    color: #fff;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+.conteudoagenda h4{
+    text-align: left;
+}
+.conteudoagenda p{
+
+    text-align: left;
+
+}
+#galeria{
+    color: #fff;
+    background-color: #f28e0a;
+    text-align: left;
+}
+.conteudogaleria{
+    width: calc(100% / 3);
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+
+.corhoras{
+    color: #d88d3d;
+    font-size:16px;
+    font-weight: bold;
+
+
+}
+.cortexto{
+    color: #de4e8d;
+    font-size:16px;
+    font-weight: bold;
+}
+#agenda h2{
+    color: #0082c7;
+    font-weight: bold;
+
+}
+.cormes{
+    color: #089edc;
+    font-size:18px;
+    font-weight: bold;
+}
+.cordia{
+    color: #692472;
+    font-size:18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+#sobre p{
+    text-align:center!important;
+    margin:0px!important;
+}
+#workshops p {
+
+    margin: 0;
+    padding: 0;
+
+}
+#footer{
+    color: #fff;
+    background-color: #5b539e;
+    text-align: left;
+    width:90.91%;
+    height: 115px;
+    position: relative;
+}
+
+.icons{
+    margin-left:45%;
+}
